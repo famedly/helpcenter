@@ -10,7 +10,10 @@
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
-    "build:gitlab": "docusaurus build --out-dir public"
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "build:gitlab": "docusaurus build --out-dir public",
+    "crowdin": "crowdin"
   },
   "dependencies": {
     "@crowdin/cli": "^3.9.0",
