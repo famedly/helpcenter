@@ -163,7 +163,7 @@ Emojis are a reference to common emoticons. In Famedly, emojis are both entertai
     </TabItem>
     <TabItem value="android" label="Android">
   <ol>
-    <li>Tap 🙂 the <b>smiley icon<b> in the message field to open the menu.</li>
+    <li>Tap 🙂 the <b>smiley icon</b> in the message field to open the menu.</li>
     <li>Tap an emoji to add it to your message.</li>
   </ol>
   </TabItem>
