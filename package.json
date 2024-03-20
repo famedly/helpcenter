@@ -6,6 +6,7 @@
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
     "build": "docusaurus build",
+    "build:serve": "docusaurus build && docusaurus serve",
     "swizzle": "docusaurus swizzle",
     "deploy": "docusaurus deploy",
     "clear": "docusaurus clear",
@@ -17,19 +18,20 @@
     "crowdin:sync": "docusaurus write-translations && crowdin upload && crowdin download"
   },
   "dependencies": {
-    "@crowdin/cli": "^3.14.0",
-    "@docusaurus/core": "3.0.1",
-    "@docusaurus/preset-classic": "3.0.1",
-    "@mdx-js/react": "^3.0.0",
-    "autoprefixer": "^10.4.14",
-    "clsx": "^2.0.0",
-    "postcss": "^8.4.26",
+    "@crowdin/cli": "^3.18.0",
+    "@docusaurus/core": "3.1.1",
+    "@docusaurus/preset-classic": "3.1.1",
+    "@mdx-js/react": "^3.0.1",
+    "autoprefixer": "^10.4.18",
+    "clsx": "^2.1.0",
+    "follow-redirects": "^1.15.5",
+    "postcss": "^8.4.35",
     "prism-react-renderer": "^2.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.0.1"
+    "@docusaurus/module-type-aliases": "3.1.1"
   },
   "browserslist": {
     "production": [
