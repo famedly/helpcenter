@@ -1,6 +1,6 @@
 ---
-sidebar_label: Advanced features
-title: Advanced features
+sidebar_label: Erweiterte Funktionen
+title: Erweiterte Funktionen
 hide_title: true
 displayed_sidebar: helpcenterSidebar
 sidebar_position: 8
@@ -12,42 +12,42 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <div class="hero hero--primary">
   <div class="container">
-    <h2 class="hero__title">Advanced features</h2>
-    <p class="hero__subtitle">We have some advanced features.</p>
-    <p>We want to test these features first before implementing complicated UI components.</p>
+    <h2 class="hero__title">Erweiterte Funktionen</h2>
+    <p class="hero__subtitle">Wir haben einige erweiterte Funktionen.</p>
+    <p>Wir wollen diese Funktionen zuerst testen, bevor wir komplizierte UI-Komponenten implementieren.</p>
   </div>
 </div>
 
-## General
+## Allgemein
 
-All advanced features are available via chat commands. You can enter the commands in the textfield of a chatroom and press send. The advanced features need to be enabled per customer.
+Alle erweiterten Funktionen sind über Chatbefehle verfügbar. Sie können die Befehle im Textfeld eines Chatraums eingeben und auf "Senden" klicken. Die erweiterten Funktionen müssen pro Kunde aktiviert werden.
 
-### Change history visibility of a room
+### Sichtbarkeit eines Raumes ändern
 
-The user needs to be admin of a room.
+Der Benutzer muss Administrator eines Raumes sein.
 
-- `/setHistoryVisibility <invited/joined/shared/worldReadable>` -> This changes the history visibility in this room.
+- `/setHistoryVisibility <invited/joined/shared/worldReadable>` -> Dies ändert die Sichtbarkeit der Historie in diesem Raum.
 
-### Ignore users
+### Nutzer ignorieren
 
-- `/ignore <@mxid>` -> This adds a user to the ignore list.
-- `/unignore <@mxid>` -> This removes the user from the ignore list.
-- `/ignoreList` -> This command posts the list of ignored users into the notes room.
+- `/ignore <@mxid>` -> Dies fügt einen Benutzer zur Ignorieren-Liste hinzu.
+- `/unignore <@mxid>` -> Dies entfernt den Benutzer von der Ignorieren-Liste.
+- `/ignoreList` -> Dieser Befehl sendet die Liste der ignorierten Benutzer in den Notizraum.
 
-### Get reported events
+### Abrufen gemeldeter Ereignisse
 
-<b>The user needs to be OrgAdmin.</b>
+<b>Der Benutzer muss OrgAdmin sein.</b>
 
-- `/getReports <limit>` -> This command gets the reported events from the server and posts them in the notes room. (limit is optional)
+- `/getReports <limit>` -> Dieser Befehl ruft die gemeldeten Ereignisse vom Server ab und veröffentlicht sie im Notizraum. (Limit ist optional)
 
-### Force logout user
+### Benutzer abmelden
 
-<b>The user needs to be OrgAdmin.</b>
+<b>Der Benutzer muss OrgAdmin sein.</b>
 
-- `/forceLogout <user-id>` -> This command remotes logout a user.
+- `/forceLogout <user-id>` -> Dieser Befehl meldet einen anderen Benutzer ab.
 
-### Send server notice
+### Serverbenachrichtigung senden
 
-<b>The user needs to be OrgAdmin.</b>
+<b>Der Benutzer muss OrgAdmin sein.</b>
 
-- `/serverNotice <message>` -> The server notice is then sent to all users in the visible contact list.
+- `/serverNotice <message>` -> Sendet eine Serverbenachrichtigung an alle Benutzer.
