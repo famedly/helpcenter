@@ -1,9 +1,9 @@
 ---
-sidebar_label: Use HBA
-title: Use HBA
+sidebar_label: Use eHBA
+title: Use eHBA
 hide_title: true
 displayed_sidebar: helpcenterSidebar
-sidebar_position: 3
+sidebar_position: 1
 ---
 
 import Tabs from '@theme/Tabs';
@@ -13,34 +13,48 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 
 <div class="hero hero--primary">
   <div class="container">
-    <h2 class="hero__title">Use HBA</h2>
-    <ul>
-        <li>Add HBA</li>
-        <li>Remove HBA</li>
-    </ul>
+    <h2 class="hero__title">Use eHBA</h2>
   </div>
 </div>
 
-## Add HBA
+## Register eHBA card
 
-To connect to VZD Fhir Directory you have to add your HBA. This needs to be done with
-a mobile device since you need NFC connection to read the card.
+You can register yourself on the TIM contact list by connecting your eHBA to your user account.  
+Thereby you will be able to contact users from other organizations and be contacted by them.  
+
+:::note
+You will need a mobile device with NFC to connect your eHBA to your user account.
+:::
 
 <Tabs>
   <TabItem value="mobile" label="Mobile">
   <ol>
-    <li></li>
+    <li>To access the settings, tap on your profile picture or name initials.</li>
+    <li>Tap on <b>Profile</b>.</li>
+    <li>Tap on the **Add +** Button next to **eHBA-Card** text.</li>
+    <li>Tap on **Start Verification**.</li>
+    <li>Enter the CAN and tap on **Confirm**. You can find the 6 digits long CAN number on your eHBA card.</li>
+    <li>Enter eHBA PIN and tap on **Confirm**.</li>
+    <li>Now place the chip of your eHBA card on the NFC reader of your mobile device. Move your card a little bit until the app says **Reading card...** then do not move it until the card is successfully registered.</li>
+    <li>If the card could not be read, tap on **Scan again** and place your card on the NFC reader again. Make sure not to move it until the card is successfully registered. Removing the phone case might improve connectivity.</li>
   </ol>
   </TabItem>
 </Tabs>
 
 
-## Remove HBA
+## Revoke eHBA card
 
 <Tabs>
   <TabItem value="mobile" label="Mobile">
   <ol>
-    <li></li>
+    <li>To access the settings, tap on your profile picture or name initials.</li>
+    <li>Tap on <b>Profile</b>.</li>
+    <li>Tap on the Arrow (**>**) Button next to eHBA-Card text.</li>
+    <li>Tap on **Revoke card**.</li>
+    <li>Enter the CAN and tap on **Confirm**.</li>
+    <li>Enter eHBA PIN and tap on **Confirm**.</li>
+    <li>Now place your the chip of your eHBA card on the NFC reader of your mobile device. Move your card a little bit until the app says **Reading card...** then do not move it until the card is successfully revoked.</li>
+    <li>If the card could not be read, tap on **Scan again** and place your card on the NFC reader again. Make sure not to move it until the card is successfully revoked.</li>
   </ol>
   </TabItem>
 </Tabs>
