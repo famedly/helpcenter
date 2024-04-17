@@ -14,33 +14,44 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 <div class="hero hero--primary">
   <div class="container">
     <h2 class="hero__title">Use HBA</h2>
-    <ul>
-        <li>Add HBA</li>
-        <li>Remove HBA</li>
-    </ul>
   </div>
 </div>
 
-## Add HBA
+## Register HBA card
 
 To connect to VZD Fhir Directory you have to add your HBA. This needs to be done with
-a mobile device since you need NFC connection to read the card.
+a mobile device since you need NFC connection to read the card.  
+After registering, you will be able to find users and contact points of other organizations.
 
 <Tabs>
   <TabItem value="mobile" label="Mobile">
   <ol>
-    <li></li>
+    <li>To access the settings, tap on your profile picture or name initials.</li>
+    <li>Tap on <b>Profile</b>.</li>
+    <li>Tap on the **Add +** Button next to **HBA-Card** text.</li>
+    <li>Tap on **Start Verification**.</li>
+    <li>Enter the CAN and tap on **Confirm**. You can find the 6 digits long CAN number on your HBA card.</li>
+    <li>Enter HBA PIN and tap on **Confirm**.</li>
+    <li>Now place your HBA cards chip on the NFC reader of your mobile device. Move your card a little bit until the app says **Reading card...** then do not move it until the card is successfully registered.</li>
+    <li>If reading card did not work, tap on **Scan again** and place your card on the NFC reader again. Make sure not to move it until the card is successfully registered. Probably removing the phone case before registering the HBA could help.</li>
   </ol>
   </TabItem>
 </Tabs>
 
 
-## Remove HBA
+## Revoke HBA card
 
 <Tabs>
   <TabItem value="mobile" label="Mobile">
   <ol>
-    <li></li>
+    <li>To access the settings, tap on your profile picture or name initials.</li>
+    <li>Tap on <b>Profile</b>.</li>
+    <li>Tap on the Arrow (**>**) Button next to HBA-Card text.</li>
+    <li>Tap on **Revoke card**.</li>
+    <li>Enter the CAN and tap on **Confirm**.</li>
+    <li>Enter HBA PIN and tap on **Confirm**.</li>
+    <li>Now place your HBA cards chip on the NFC reader of your mobile device. Move your card a little bit until the app says **Reading card...** then do not move it until the card is successfully revoked.</li>
+    <li>If reading card did not work, tap on **Scan again** and place your card on the NFC reader again. Make sure not to move it until the card is successfully revoked.</li>
   </ol>
   </TabItem>
 </Tabs>
