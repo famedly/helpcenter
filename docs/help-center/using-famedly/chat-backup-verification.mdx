@@ -1,0 +1,119 @@
+---
+sidebar_label: Chat Backup Verification
+title: Chat Backup Verification
+hide_title: true
+displayed_sidebar: helpcenterSidebar
+sidebar_position: 6
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+
+
+<div class="hero hero--primary">
+  <div class="container">
+    <h2 class="hero__title">Chat Backup Verification</h2>
+    <p class="hero__subtitle">How to use QR-Verification and what to do if your device can't scan the code or no other devices are available.</p>
+  </div>
+</div>
+
+
+## QR Verification
+
+You will get redirected to the QR-Verification page automatically in the login-flow, if at least one of the devices you want to use for verification is a mobile device.  
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Accept the verification request by clicking on <b>Continue</b> in the <b>New verification request</b> dialog.</li>
+    <li>If the other device is a mobile device, the screen on your web tab will display a QR-Code. If it's another web device, it will fallback to number verification.</li>
+    <li>Scan the QR-Code displayed on your web browser with your mobile device. If both devices are in web browsers, compare the numbers and confirm them.</li>
+    <li>If you are not able to scan the QR-Code, just follow the instructions for [number verification](./chat-backup-verification#number-verification).</li>
+    <li>After scanning the QR-Code, you will be asked if it was really you who scanned the QR-Code on your already active device. Click <b>Yes, it was me</b> to complete the verification.</li>
+  </ol>
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+  <ol>
+    <li>Accept the verification request by tapping on <b>Continue</b> in the <b>New verification request</b> dialog.</li>
+    <li>One of the devices will now display a QR-Code, the other device will open a QR-Code scanner.</li>
+    <li>Please scan the displayed QR-Code.</li>
+    <li>If you are not able to scan the QR-Code, just follow the instructions for [number verification](./chat-backup-verification#number-verification).</li>
+    <li>After scanning the QR-Code, you will be asked if it was really you who scanned the QR-Code on your already active device. Tap <b>Yes, it was me</b> to complete the verification.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Number verification
+
+If both devices are desktop devices or web browsers you get asked for number verification instead of QR-Verification automatically. Just compare the numbers and indicate whether they match or not on both devices.  
+
+### Use number verification with mobile device
+
+Sometimes you might need to use number verification instead of QR-Verification (e.g. if your phones camera is broken), in this case you can also tap <b>Compare numbers instead of QR-Code</b> below the QR-Code scanner on your mobile device. 
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Accept the verification request by clicking on <b>Continue</b> in the <b>New verification request</b> dialog.</li>
+    <li>If the other device is a mobile device, that device will now open a QR-Code scanner. Tap <b>Compare numbers instead of QR-Code</b>.</li>
+    <li>Compare the numbers on the devices and indicate whether they match or not on both devices.</li>
+  </ol>
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+  <ol>
+    <li>Accept the verification request by tapping on <b>Continue</b> in the <b>New verification request</b> dialog.</li>
+    <li>One of the devices will now display a QR-Code, the other device will open a QR-Code scanner.</li>
+    <li>Tap **Compare numbers instead of QR-Code** below the QR-Code scanner.</li>
+    <li>Compare the numbers on the devices and indicate whether they match or not on both devices.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+
+## Verification without other devices
+
+If you have no other device logged in or you lost access to the other devices, you can still restore your backup by entering your passphrase. This passphrase was shown to you when you activated your chat backup and it begins with the letters <b>Es</b>.  
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Click <b>No access to other devices?</b>.</li>
+    <li>Enter your passphrase into the input field.</li>
+    <li>Click <b>Restore backup</b>.</li>
+  </ol>
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">
+  <ol>
+    <li>Tap <b>No access to other devices?</b>.</li>
+    <li>Enter your passphrase into the input field.</li>
+    <li>Tap <b>Restore backup</b>.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Forgotten passphrase?
+
+If you forgot your passphrase and have no other devices available, you can reset your passphrase. 
+
+:::danger
+You will lose access to previous messages if you reset your passphrase. Please only reset your passphrase if you're sure that you have no access to it. 
+If you own a device that already had the chat backup enabled and login there, you will still be able to read the messages that were received and decrypted on that device.
+:::
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Click <b>No access to other devices?</b>.</li>
+    <li>Click <b>No access to your passphrase?</b>.</li>
+    <li>Please read the warnings in the dialog carefully and then click <b>Reset account</b>.</li>
+  </ol>
+  </TabItem>
+  <TabItem value="mobile" label="Mobile">    
+  <ol>
+    <li>Tap <b>No access to other devices?</b>.</li>
+    <li>Tap <b>No access to your passphrase?</b>.</li>
+    <li>Please read the warnings in the dialog carefully and then tap <b>Reset account</b>.</li>
+  </ol>
+  </TabItem>
+</Tabs>
