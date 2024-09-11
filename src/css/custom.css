@@ -406,6 +406,6 @@
        url('../fonts/ibm-plex-sans-v14-latin/ibm-plex-sans-v14-latin-700italic.svg#IBMPlexSans') format('svg'); /* Legacy iOS */
 }
 
-ol ol, ul ol {
+ol ol, ul ol, ol {
   list-style-type: decimal;
 }
