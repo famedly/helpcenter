@@ -1,0 +1,131 @@
+---
+sidebar_label: Manage users
+title: Manage users
+hide_title: true
+displayed_sidebar: helpcenterSidebar
+sidebar_position: 1
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+
+<div class="hero hero--primary">
+  <div class="container">
+    <h2 class="hero__title">Users</h2>
+    <p class="hero__subtitle">How to manage users in the admin panel</p>
+    <p>In the admin panel you can add and manage user accounts for the people that are working in your organization.</p>
+  </div>
+</div>
+
+## Add users
+
+Add a new user account for a member of your organization.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Go to the <b>Users</b> section.</li>
+    <li>Click on <b>+ Add User</b>.</li>
+    <li>Enter the complete name of the user.</li>
+    <li>If required, enter the user's email address to make it easier to assign it to the user.</li>
+    <li>If necessary, customize the password for the first login (e.g. to make it easier to communicate it verbally to the user).</li>
+    <li>Select whether you want to create a login QR-code.</li>
+    <li>Select whether you want to add additional users afterwards.</li>
+    <li>Click on <b>Create</b>.</li>
+    <li>If you created a QR-Code, show the welcome page on the new browser tab to the user.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+:::note
+By clicking <b>Create QR-code for login</b> a welcome page will be created for the new user. It contains all necessary information for a seemless start (name of the organization, server address, username, onetime start password, QR-code for the use off the app).
+Please note that this welcome page will not be automatically sent to the user. You will have to show it to the user or save it as PDF file and send it. 
+:::
+
+:::warning
+Instruct the user to change the password immediately, especially if you cannot show them the welcome page or password in person.
+:::
+
+
+## Search users
+
+You are able to search for users in admin panel.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Go to the <b>Users</b> section.</li>
+    <li>Click on <b>🔍 Search …</b>.</li>
+    <li>Begin to type in the name, username or E-mail address of the person you are searching for.</li>
+    <li>While typing all possible search results are displayed below.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## View and Remove a User's Devices
+
+You can view and remove a user's devices in the Admin Panel if necessary, e.g., if the user has lost their mobile device. They will then be automatically logged out.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Go to the <b>Users</b> section.</li>
+    <li>Search for the user whose devices you want to manage and click <b>Edit</b> on the right side of the row.</li>
+    <li>Click <b>Manage devices</b>. You will now see a list of the user's logged-in devices.</li>
+    <li>Select the devices you want to delete by clicking on them.</li>
+    <li>Click <b>Delete selected devices</b>.</li>
+    <li>Click <b>Ok</b>.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Change a User's Password
+
+If a user has lost their password, you can create a new password in the Admin Panel.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Go to the <b>Users</b> section.</li>
+    <li>Enter the new password for the user in the <b>Password</b> field.</li>
+    <li>Re-enter the new password in the <b>Repeat password</b> field.</li>
+    <li>Choose whether you want to generate a QR-code for login.</li>
+    <li>Click <b>Change password</b>.</li>
+    <li>If you have generated a QR-code, show the user the welcome page in the new browser tab.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Deactivate a User
+
+When you deactivate a user, they will no longer be able to log into the account until the account is reactivated.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Go to the <b>Users</b> section.</li>
+    <li>Search for the user you want to deactivate and click <b>Edit</b> on the right side of the row.</li>
+    <li>Click <b>Deactivate user?</b>.</li>
+    <li>Click <b>Ok</b>.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Reactivate a User
+
+When you reactivate a deactivated user, they will be able to log into the account again.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Go to the <b>Users</b> section.</li>
+    <li>Click <b>Show deactivated users</b>.</li>
+    <li>Search for the user you want to activate and click <b>Edit</b> on the right side of the row.</li>
+    <li>Click <b>Activate user</b>.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+
+---

@@ -1,0 +1,130 @@
+---
+sidebar_label: Benutzer verwalten
+title: Benutzer verwalten
+hide_title: true
+displayed_sidebar: helpcenterSidebar
+sidebar_position: 1
+---
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<div class="hero hero--primary">
+  <div class="container">
+    <h2 class="hero__title">Benutzer</h2>
+    <p class="hero__subtitle">Wie Sie Benutzer im Admin Panel verwalten</p>
+    <p>Im Admin Panel können Sie Benutzerkonten für Personen, die in Ihrer Organisation arbeiten hinzufügen und verwalten.</p>
+  </div>
+</div>
+
+## Benutzer hinzufügen
+
+Ein neues Benutzerkonto für ein Mitglied in Ihrer Organisation hinzufügen.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Gehen Sie zum Bereich <b>Benutzer</b>.</li>
+    <li>Klicken Sie auf <b>+ Benutzer hinzufügen</b>.</li>
+    <li>Geben Sie den vollständigen Namen des Benutzers ein.</li>
+    <li>Geben Sie bei Bedarf um die E-Mail-Adresse des Benutzers ein, um diese dem Benutzer leichter zuordnen zu können.</li>
+    <li>Passen Sie bei Bedarf das Passwort für den ersten Login an (z.B. um es dem Benutzer leichter mündlich mitteilen zu können).</li>
+    <li>Wählen Sie aus, ob Sie einen QR-Code für die Anmeldung erstellen möchten.</li>
+    <li>Wählen Sie aus, ob Sie im Anschluss weitere Benutzer erstellen möchten.</li>
+    <li>Klicken Sie auf <b>Erstellen</b>.</li>
+    <li>Falls Sie einen QR-Code erstellt haben, zeigen Sie dem Benutzer die Willkommensseite aus dem neuen Browser-Tab.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+:::note
+Durch Klicken auf <b>QR-Code für die Anmeldung erstellen</b> wird eine Willkommensseite für den neuen Benutzer erstellt. Sie enthält alle notwendigen Informationen für einen reibungslosen Start (Name der Organisation, Server Adresse, Benutzername, Startpasswort, QR-Code für die Verwendung der App).
+Bitte beachten Sie, dass diese Willkommensseite dem Benutzer nicht automatisch zugesendet wird. Sie müssen sie dem Benutzer entweder persönlich zeigen oder sie als PDF Datei speichern und versenden. 
+:::
+
+:::warning
+Weisen Sie den Benutzer an, das Passwort umgehend zu ändern, insbesondere wenn Sie ihm die Willkommensseite oder das Passwort nicht persönlich zeigen können.
+:::
+
+## Benutzer suchen
+
+Sie können Benutzer im Admin-Panel suchen.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Gehen Sie zum Bereich <b>Benutzer</b>.</li>
+    <li>Klicken Sie auf <b>🔍 Suche …</b>.</li>
+    <li>Beginnen Sie, den Namen, den Benutzernamen oder die E-Mail-Adresse der gesuchten Person einzugeben.</li>
+    <li>Während der Eingabe werden alle möglichen Suchergebnisse unten angezeigt.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Geräte eines Benutzers einsehen und entfernen
+
+Sie können die Geräte eines Benutzers im Admin Panel einsehen und bei Bedarf entfernen, z.B. wenn der Benutzer sein Mobilgerät verloren hat. Diese werden dann automatisch ausgeloggt.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Gehen Sie zum Bereich <b>Benutzer</b>.</li>
+    <li>Suchen Sie nach dem Benutzer, dessen Geräte Sie verwalten möchten und klicken Sie rechts in der Zeile auf <b>Bearbeiten</b>.</li>
+    <li>Klicken Sie auf <b>Geräte verwalten</b>. Sie sehen nun eine Liste der eingeloggten Geräte des Benutzers.</li>
+    <li>Wählen Sie die Geräte an, die Sie löschen möchten, indem Sie diese anklicken.</li>
+    <li>Klicken Sie auf <b>Ausgewählte Geräte löschen</b>.</li>
+    <li>Klicken Sie auf <b>Ok</b>.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Passwort eines Benutzers ändern
+
+Falls ein Benutzer sein Passwort verloren hat, können Sie im Admin Panel ein neues Passwort erstellen.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Gehen Sie zum Bereich <b>Benutzer</b>.</li>
+    <li>Geben Sie das neue Passwort für den Benutzer in das Feld <b>Passwort</b> ein.</li>
+    <li>Geben Sie das neue Passwort erneut im Feld <b>Passwort wiederholen</b> ein.</li>
+    <li>Wählen Sie aus, ob Sie einen QR-Code für die Anmeldung erstellen möchten.</li>
+    <li>Klicken Sie auf <b>Passwort ändern</b>.</li>
+    <li>Falls Sie einen QR-Code erstellt haben, zeigen Sie dem Benutzer die Willkommensseite aus dem neuen Browser-Tab.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Benutzer deaktivieren
+
+Wenn Sie einen Benutzer deaktivieren, kann er sich so lange nicht mehr auf dem Konto anmelden, bis der Account wieder reaktiviert wird.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Gehen Sie zum Bereich <b>Benutzer</b>.</li>
+    <li>Suchen Sie nach dem Benutzer, den Sie deaktivieren möchten und klicken Sie rechts in der Zeile auf <b>Bearbeiten</b>.</li>
+    <li>Klicken Sie auf <b>Den Benutzer deaktivieren?</b>.</li>
+    <li>Klicken Sie auf <b>Ok</b>.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+## Benutzer reaktivieren
+
+Wenn Sie einen deaktivierten Benutzer aktivieren, kann er sich so wieder auf dem Konto anmelden.
+
+<Tabs>
+  <TabItem value="desktop" label="Desktop" default>
+  <ol>
+    <li>Gehen Sie zum Bereich <b>Benutzer</b>.</li>
+    <li>Klicken Sie auf <b>Deaktivierte Benutzer anzeigen</b>.</li>
+    <li>Suchen Sie nach dem Benutzer, den Sie aktivieren möchten und klicken Sie rechts in der Zeile auf <b>Bearbeiten</b>.</li>
+    <li>Klicken Sie auf <b>Benutzer aktivieren</b>.</li>
+  </ol>
+  </TabItem>
+</Tabs>
+
+
+
+* * *
