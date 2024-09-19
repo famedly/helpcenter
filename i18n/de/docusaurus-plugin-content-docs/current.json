@@ -19,8 +19,8 @@
     "message": "Verwaltung",
     "description": "The label for category Administration in sidebar helpcenterSidebar"
   },
-  "sidebar.helpcenterSidebar.category.TIM Features": {
-    "message": "TIM Features",
+  "sidebar.helpcenterSidebar.category.TI-Messenger features": {
+    "message": "TI-Messenger Features",
     "description": "The label for category TIM Features in sidebar helpcenterSidebar"
   },
   "sidebar.helpcenterSidebar.category.Your account": {
