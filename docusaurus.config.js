@@ -75,12 +75,6 @@ const config = {
             label: 'Help Center',
           },
           {
-            type: 'doc',
-            docId: 'api/index',
-            position: 'left',
-            label: 'API',
-          },
-          {
             to: 'https://famedly.com/',
             label: 'Website',
             position: 'right',
@@ -95,6 +89,10 @@ const config = {
             position: 'right',
           },
         ],
+      },
+      announcementBar: {
+        id: 'announcementBar',
+        content: 'Das Famedly Help Cencer ist umgezogen / The Famedly Help Center has moved: <a href="https://docs.famedly.com">https://docs.famedly.com</a>.',
       },
       footer: {
         copyright: `Copyright © ${new Date().getFullYear()} Famedly GmbH`,

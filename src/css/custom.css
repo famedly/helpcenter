@@ -409,3 +409,12 @@
 ol ol, ul ol, ol {
   list-style-type: decimal;
 }
+
+div[role='banner'] {
+  background-color: #FFC700;
+  height: 32px;
+}
+div[role='banner'] > div {
+  font-size: 16px;
+  line-height: 24px;
+}
