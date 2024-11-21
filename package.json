@@ -19,7 +19,7 @@
   },
   "dependencies": {
     "@crowdin/cli": "^3.19.2",
-    "@docusaurus/core": "3.2.1",
+    "@docusaurus/core": "3.4.0",
     "@docusaurus/preset-classic": "3.2.1",
     "@mdx-js/react": "^3.0.1",
     "autoprefixer": "^10.4.19",
